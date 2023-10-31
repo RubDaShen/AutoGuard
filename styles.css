@@ -1,0 +1,611 @@
+body
+{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+
+    position: center;
+}
+
+.autoGuard
+{
+    width: 5vw;
+    height: 5vw;  
+
+    position: fixed;
+    top: 1vw;
+    left: 1vw;
+}
+
+.fancyTitle
+{
+    position: absolute;
+    top: 15vw;
+    left: 2vw;
+}
+
+h1.titleHeader1
+{
+    font-size: 3vw;
+}
+
+h2.titleHeader2
+{
+    margin-top: -2vw;
+    font-size: 1.5vw;
+
+    font-style: normal;
+    font-weight: 42;
+}
+
+.goButton
+{
+    font-size: 25px;
+
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    left: 50vw;
+    top: 35vw;
+    transform: translate(-50%, -50%);
+
+    background-color: #2bb5c7;
+    border-radius: 20px;
+    color: black;
+    padding: 15px 50px;
+
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.login
+{
+    font-size: 1.5vw;
+
+    position: absolute;
+    left: 60vw;
+    top: 91vw;
+    transform: translate(-50%, -50%);
+
+    background-color: #d8d8d8;
+    border-radius: 1vw;
+    color: black;
+    padding: 1.5vw 2vw;
+
+    cursor: pointer;
+    white-space: nowrap;
+    margin: 125px, 0px;
+}
+
+.signin
+{
+    font-size: 1.5vw;
+
+    position: absolute;
+
+    left: 80vw;
+    top: 91vw;
+    transform: translate(-50%, -50%);
+
+    background-color: #2bb5c7;
+    border-radius: 1vw;
+    color: black;
+    padding: 1.5vw 2vw;
+
+    cursor: pointer;
+}
+
+.mainBanner
+{
+    width: 100%;
+    height: auto;
+}
+
+.secondBanner
+{
+    width: 100%;
+    height: auto;
+}
+
+.thingy
+{
+    position: fixed;
+    top: 0vw;
+    right: 0vw;
+    width: 40vw;
+}
+
+.topbar_text
+{
+    position: fixed;
+    top: 0vw;
+    right: 0vw;
+
+    word-spacing: 2.5vw;
+    margin-right: 2vw;
+
+    font-size: 1vw;
+    white-space: nowrap;
+}
+
+.shortDesc
+{
+    font-size: 1vw;
+
+    position: absolute;
+    top: 65vw;
+    left: 2vw;
+    
+    vertical-align: 10px;
+
+    word-wrap: break-word;
+    width: 30vw;
+    text-align: center;
+}
+
+.thirdBG
+{
+    width: 100%;
+    height: auto;
+}
+
+.fourthBG
+{
+    width: 100%;
+    height: auto;
+}
+
+.fifthBG
+{
+    width: 100%;
+    height: auto;
+}
+
+.sixthBG
+{
+    width: 100%;
+    height: auto;
+}
+
+.seventhBG1
+{
+    width: 100%;
+    height: auto;
+}
+
+.seventhBG2
+{
+    width: 100%;
+    height: auto;
+}
+
+.servicios
+{
+    position: absolute;
+    top: 115vw;
+    left: 50vw;
+
+    font-size: 3vw;
+    font-weight: bold;
+    color: black;
+    transform: translate(-50%, -50%);
+}
+
+.nosotros
+{
+    position: absolute;
+    top: 156vw;
+    left: 50vw;
+
+    font-size: 3vw;
+    font-weight: bold;
+    color: black;
+    transform: translate(-50%, -50%);
+}
+
+.desc4
+{
+    font-size: 1.5vw;
+    color: black;
+    position: absolute;
+    top: 181vw;
+    left: 25vw;
+    
+    vertical-align: 10px;
+
+    word-wrap: break-word;
+    width: 50vw;
+}
+
+.app
+{
+    position: absolute;
+    top: 203vw;
+    left: 48vw;
+
+    font-size: 3vw;
+    font-weight: bold;
+    color: black;
+    transform: translate(-50%, -50%);
+}
+
+.autoguard
+{
+    position: absolute;
+    top: 223vw;
+    left: 19vw;
+
+    font-size: 2vw;
+    font-weight: bold;
+    color: black;
+    transform: translate(-50%, -50%);
+}
+
+.desc5
+{
+    font-size: 1.5vw;
+    color: black;
+    position: absolute;
+    top: 225vw;
+    left: 3vw;
+    
+    vertical-align: 10px;
+
+    word-wrap: break-word;
+    width: 35vw;
+}
+
+.descargalo
+{
+    position: absolute;
+    top: 240vw;
+    left: 19vw;
+
+    font-size: 2vw;
+    font-weight: bold;
+    color: black;
+    transform: translate(-50%, -50%);
+}
+
+.planes
+{
+    position: absolute;
+    top: 253vw;
+    left: 50vw;
+
+    font-size: 3vw;
+    font-weight: bold;
+    color: black;
+    transform: translate(-50%, -50%);
+}
+
+.gratis
+{
+    position: absolute;
+    top: 263.5vw;
+    left: 25vw;
+
+    font-size: 2vw;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+}
+
+.vip
+{
+    position: absolute;
+    top: 263.5vw;
+    left: 51vw;
+
+    font-size: 2vw;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+}
+
+.platino
+{
+    position: absolute;
+    top: 263.5vw;
+    left: 78vw;
+
+    font-size: 2vw;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+}
+
+.obtener1
+{
+    font-size: 1.5vw;
+
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    left: 25vw;
+    top: 291vw;
+    transform: translate(-50%, -50%);
+
+    background-color: skyblue;
+    border-radius: 1vw;
+    color: black;
+    padding: 1vw 1vw;
+
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.obtener2
+{
+    font-size: 1.5vw;
+
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    left: 51.3vw;
+    top: 291vw;
+    transform: translate(-50%, -50%);
+
+    background-color: skyblue;
+    border-radius: 1vw;
+    color: black;
+    padding: 1vw 1vw;
+
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.obtener3
+{
+    font-size: 1.5vw;
+
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    left: 78vw;
+    top: 291vw;
+    transform: translate(-50%, -50%);
+
+    background-color: skyblue;
+    border-radius: 1vw;
+    color: black;
+    padding: 1vw 1vw;
+
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.contactanos
+{
+    position: absolute;
+    top: 303vw;
+    left: 50vw;
+
+    font-size: 3vw;
+    font-weight: bold;
+    color: black;
+    transform: translate(-50%, -50%);
+}
+
+.duda
+{
+    position: absolute;
+    top: 311vw;
+    left: 73vw;
+
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: black;
+    transform: translate(-50%, -50%);
+}
+
+.lb1
+{
+    font-size: 1.5vw;
+    color: black;
+    position: absolute;
+    top: 314vw;
+    left: 50vw;
+    
+    vertical-align: 10px;
+
+    word-wrap: break-word;
+    width: 50vw;
+}
+
+.lb2
+{
+    font-size: 1.5vw;
+    color: black;
+    position: absolute;
+    top: 317.5vw;
+    left: 50vw;
+    
+    vertical-align: 10px;
+
+    word-wrap: break-word;
+    width: 50vw;
+}
+
+.lb3
+{
+    font-size: 1.5vw;
+    color: black;
+    position: absolute;
+    top: 321vw;
+    left: 50vw;
+    
+    vertical-align: 10px;
+
+    word-wrap: break-word;
+    width: 50vw;
+}
+
+.lb4
+{
+    font-size: 1.5vw;
+    color: black;
+    position: absolute;
+    top: 324vw;
+    left: 50vw;
+    
+    vertical-align: 10px;
+
+    word-wrap: break-word;
+    width: 50vw;
+}
+
+.enviar
+{
+    font-size: 1.5vw;
+
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    left: 78vw;
+    top: 341vw;
+    transform: translate(-50%, -50%);
+
+    background-color: aquamarine;
+    border-radius: 1vw;
+    color: black;
+    padding: 1vw 1vw;
+
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.desc1
+{
+    font-size: 1.2vw;
+
+    position: absolute;
+    top: 131vw;
+    left: 13.5vw;
+    color: black;
+    
+    vertical-align: 1vw;
+
+    word-wrap: break-word;
+    width: 13vw;
+    text-align: center;
+
+    border-radius: 1vw;
+    padding: 1vw 1vw;
+    background-color: rgb(198, 147, 232);
+}
+
+.desc2
+{
+    font-size: 1.2vw;
+
+    position: absolute;
+    top: 131vw;
+    left: 41.5vw;
+    color: black;
+    
+    vertical-align: 1vw;
+
+    word-wrap: break-word;
+    width: 13vw;
+    text-align: center;
+
+    border-radius: 1vw;
+    padding: 1vw 1vw;
+    background-color: rgb(198, 147, 232);
+}
+
+.desc3
+{
+    font-size: 1.2vw;
+
+    position: absolute;
+    top: 131vw;
+    left: 70vw;
+    color: black;
+    
+    vertical-align: 1vw;
+
+    word-wrap: break-word;
+    width: 13vw;
+    text-align: center;
+
+    border-radius: 1vw;
+    padding: 1vw 1vw;
+    background-color: rgb(198, 147, 232);
+}
+
+.knowmore1
+{
+    font-size: 1.5vw;
+
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    left: 21vw;
+    top: 143vw;
+    transform: translate(-50%, -50%);
+
+    background-color: #2095e8;
+    border-radius: 1vw;
+    color: black;
+    padding: 1vw 1vw;
+
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.knowmore2
+{
+    font-size: 1.5vw;
+
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    left: 49vw;
+    top: 143vw;
+    transform: translate(-50%, -50%);
+
+    background-color: #2095e8;
+    border-radius: 1vw;
+    color: black;
+    padding: 1vw 1vw;
+
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.knowmore3
+{
+    font-size: 1.5vw;
+
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    left: 77.5vw;
+    top: 143vw;
+    transform: translate(-50%, -50%);
+
+    background-color: #2095e8;
+    border-radius: 1vw;
+    color: black;
+    padding: 1vw 1vw;
+
+    cursor: pointer;
+    white-space: nowrap;
+}
